@@ -1,5 +1,3 @@
-{VERIFICAR AS DECLARAÇÕES DE VARIÁVEIS COM VÍRGULA}
-
 inteiro: n
 flutuante: x, y, z
 

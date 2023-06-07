@@ -83,3 +83,5 @@ def test_018():
 def test_019():
     assert execute_test("sema-019.tpp") == True
 
+def test_020():
+    assert execute_test("sema-020.tpp") == True

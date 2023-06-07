@@ -1,7 +1,7 @@
 {Aviso: Variável 'b' declarada e não utilizada}
-{Aviso: Atribuição de tipos distintos 'b' inteiro e 'c' flutuante}
-{Aviso: Atribuição de tipos distintos 'a' flutuante e 'func' retorna inteiro}
-{Erro: Função principal deveria retornar inteiro, mas retorna vazio}
+{Aviso: Atribuição de tipos distintos. Coerção implícita do valor de 'b' é do tipo 'inteiro' para 'c' que é 'flutuante'}
+{Aviso: Atribuição de tipos distintos. Coerção implícita do valor retornado por 'func' é do tipo 'inteiro' para 'a' que é 'flutuante'}
+{Erro: Função 'principal' deveria retornar 'inteiro', mas retorna 'vazio'}
 
 inteiro func(inteiro: x, inteiro: y)
 	retorna (x + y)

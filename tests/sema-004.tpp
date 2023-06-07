@@ -1,5 +1,6 @@
 {Aviso: Variável 'b' declarada e não utilizada}
-{Erro: Função principal deveria retornar inteiro, mas retorna vazio}
+{Aviso: Variável 'a' declarada e inicializada, mas não utilizada}
+{Erro: Função 'principal' deveria retornar 'inteiro', mas retorna 'vazio'}
 
 inteiro: a 
 inteiro: b

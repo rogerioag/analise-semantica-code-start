@@ -1,7 +1,8 @@
-{Erro: Chamada para a função principal não permitida}
-{Aviso: Coerção implícita do valor atribuído para 'a'}
-{Aviso: Coerção implícita do valor retornado por 'func'}
-{Erro: Função principal deveria retornar inteiro, mas retorna vazio}
+{Erro: Chamada para a função 'principal' não permitida}
+{Aviso: Atribuição de tipos distintos. Coerção implícita do valor atribuído '10' do tipo 'inteiro' para 'a' que é 'flutuante'}
+{Aviso: Atribuição de tipos distintos. Coerção implícita do valor retornado por 'func' é do tipo 'inteiro' para 'a' que é 'flutuante'}
+{Aviso: Variável 'b' declarada e inicializada, mas não utilizada}
+{Erro: Função 'principal' deveria retornar 'inteiro', mas retorna 'vazio'}
 
 flutuante: a
 inteiro: b

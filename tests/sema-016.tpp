@@ -1,17 +1,16 @@
-{Aviso: Coerção implícita do valor atribuído para 'a', variável a flutuante recebendo um inteiro}
-{Erro: Função 'func' do tipo inteiro retornando flutuante}
-{Aviso: Função 'func' declarada, mas não utilizada}
-{Aviso: Chamada recursiva para a função 'principal'}
-{Erro: Função 'principal' deveria retornar inteiro, mas retorna vazio}
+{Erro: Função 'func' deveria retornar 'vazio', mas retorna 'flutuante'}
+{Aviso: Variável 'b' declarada e inicializada, mas não utilizada}
+{Erro: Função 'principal' deveria retornar 'inteiro', mas retorna 'vazio'}
 
 flutuante: a
 inteiro: b
 
-inteiro func()
-  a := 10
+func()
+  a := 10.2
   retorna(a)
 fim
 
 inteiro principal()
-	b := 18
+	b := 5
+	func()
 fim
